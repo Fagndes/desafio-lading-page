@@ -1,0 +1,30 @@
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    margin: 50px;
+    margin-left: 70px; 
+
+}
+.header-menu h1{
+    font-size: 3rem;
+}
+.header-menu img{
+    width: 3rem;
+   
+}
+@media(max-width:375px){
+    *{
+       background-color:  rgb(6, 65, 113);
+       
+
+    }
+    .header-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    
+
+}

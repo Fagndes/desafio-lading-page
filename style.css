@@ -1,0 +1,92 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: rgb(6, 65, 113);
+    font-family:'Courier New', Courier, monospace; 
+}
+.banner{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    
+}
+.banner img{
+    margin-left: 70px;
+}
+.banner .texto-info h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align:left;
+    margin: 30px;
+    margin-right: 20px;
+    
+}
+.banner .texto-info p{
+    font-size: 20px;
+    text-align:justify;
+    font-weight: 600;
+    margin: 20px;
+    margin-right: 80px;
+}
+.banner .texto-info button{
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.banner .texto-info button:hover{
+    padding-left: 60px;
+}
+/**footer*/
+.contatos .instagram-linkedin-github{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 50px;
+}
+@media(max-width:375px){
+    .banner{
+       display: flex;
+       flex-direction: column;
+
+    }
+    .banner img{
+        width: 30rem;
+        margin-right: 65px;
+        align-items: center;
+    }
+    .banner .texto-info h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .banner .texto-info p{
+        font-size: 1.5rem;
+        margin-left: 70px;
+    }
+    .banner .texto-info button{
+        font-size: 1.5rem;
+        padding: 1.2rem 2rem;
+        margin: 50px;
+        margin-left: 120px;
+        
+    }
+    .contatos .instagram-linkedin-github{
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+        padding-left: 35px;
+
+    }
+    
+}
